@@ -220,7 +220,7 @@ module.exports = {
 
 ```
 
-# .prettierrc
+# .prettierrc.js
 
 ```
 {
