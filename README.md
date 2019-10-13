@@ -27,11 +27,12 @@ npm install --save-dev tslint
 ```
 npm install --save-dev tslint-react
 ```
-# types 파일
-```
-npm install @types/react @types/react-dom @types/react-redux @types/redux
-```
 
+# types 파일
+
+```
+npm install --save-dev @types/react @types/react-dom @types/react-redux @types/redux
+```
 
 # tslint-config-prettier(에디터에서 코드 자동 변경)
 
@@ -225,7 +226,7 @@ module.exports = {
 
 ```
 
-# .prettierrc.js
+# .prettierrc
 
 ```
 {
