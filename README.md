@@ -39,6 +39,16 @@ npm install --save-dev @types/react @types/react-dom @types/react-redux @types/r
 ```
 cmd shift p 눌러 setting 누른 후 “editor.formatOnSave”: true 로 변경
 
+   "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescript]": {
+
+    },
+    "[typescriptreact]":  {
+},
+여기에 defaultFormatter이 잘못 지정되어 있으면 autofix가 잘 안 될 수도 있음
+
 npm install prettier --save-dev
 npm install --save-dev tslint-config-prettier tslint-plugin-prettier;
 
