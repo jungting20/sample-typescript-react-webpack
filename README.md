@@ -40,7 +40,8 @@ npm install --save-dev @types/react @types/react-dom @types/react-redux @types/r
 cmd shift p 눌러 setting 누른 후 “editor.formatOnSave”: true 로 변경
 
 npm install prettier --save-dev
-npm install --save-dev tslint-config-prettier
+npm install --save-dev tslint-config-prettier tslint-plugin-prettier;
+
 ```
 
 # tslint.json
@@ -48,7 +49,9 @@ npm install --save-dev tslint-config-prettier
 ```
 {
   "extends": ["tslint", "tslint-react","tslint-config-prettier"],
+    "rulesDirectory": ["tslint-plugin-prettier"],
   "rules": {
+    "prettier": true,
     "align": [true, "parameters", "statements"],
     "jsx-alignment": false,
     "ban": false,
